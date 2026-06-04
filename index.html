@@ -1,20 +1,105 @@
 <!DOCTYPE html>
 <html>
 <head>
-    <title>My Project</title>
+    <title>My Movies Blog</title>
     <style>
         body {
             font-family: Arial, sans-serif;
-            text-align: center;
-            padding: 50px;
-            background-color: #f0f0f0;
+            background: #1a1a2e;
+            color: white;
+            margin: 0;
+            padding: 0;
         }
-        h1 { color: #333; }
+        header {
+            background: #e50914;
+            padding: 30px;
+            text-align: center;
+        }
+        h1 {
+            margin: 0;
+            font-size: 48px;
+        }
+        nav {
+            background: #16213e;
+            padding: 15px;
+            text-align: center;
+        }
+        nav a {
+            color: white;
+            margin: 0 20px;
+            text-decoration: none;
+            font-weight: bold;
+        }
+        .container {
+            max-width: 1000px;
+            margin: auto;
+            padding: 30px;
+        }
+        .movie {
+            background: #0f3460;
+            margin: 20px 0;
+            padding: 20px;
+            border-radius: 10px;
+        }
+        .rating {
+            color: #ffc107;
+            font-size: 20px;
+        }
+        footer {
+            background: #16213e;
+            text-align: center;
+            padding: 20px;
+            margin-top: 30px;
+        }
+        h2 {
+            color: #e50914;
+        }
     </style>
 </head>
 <body>
-    <h1>Welcome to My Website</h1>
-    <p>This is my Computer Communication and Networks project.</p>
-    <p>Student: [Sibora Kodra]</p>
+    <header>
+        <h1>🎬 Sibora's Movie Blog</h1>
+        <p>My favorite movies and TV shows</p>
+    </header>
+    <nav>
+        <a href="#">Home</a>
+        <a href="#">Movies</a>
+        <a href="#">TV Shows</a>
+        <a href="#">Contact</a>
+    </nav>
+    <div class="container">
+        <h2>🔥 Top Movies</h2>
+        <div class="movie">
+            <h3>Oppenheimer</h3>
+            <div class="rating">★★★★★ 5/5</div>
+            <p>Amazing movie about the atomic bomb. Best picture winner!</p>
+        </div>
+        <div class="movie">
+            <h3>Barbie</h3>
+            <div class="rating">★★★★☆ 4/5</div>
+            <p>Fun, colorful, and meaningful. Great comedy!</p>
+        </div>
+        <div class="movie">
+            <h3>The Batman</h3>
+            <div class="rating">★★★★☆ 4/5</div>
+            <p>Dark, gritty, and beautiful cinematography.</p>
+        </div>
+        
+        <h2>📺 Best TV Shows</h2>
+        <div class="movie">
+            <h3>The Last of Us</h3>
+            <div class="rating">★★★★★ 5/5</div>
+            <p>Best video game adaptation ever made.</p>
+        </div>
+        <div class="movie">
+            <h3>Wednesday</h3>
+            <div class="rating">★★★★☆ 4/5</div>
+            <p>Funny, dark, and Jenna Ortega is perfect.</p>
+        </div>
+    </div>
+    <footer>
+        <p>🔒 HTTPS Enabled | bse1project2026.xyz</p>
+        <p>Sibora Kodra - Computer Communication & Networks</p>
+    </footer>
 </body>
 </html>
